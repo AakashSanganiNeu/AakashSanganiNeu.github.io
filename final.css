@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Consistent font throughout the site */
+}
+
+body {
+    background-color: #121212; /* Dark background for the whole page */
+    color: #ffffff; /* Light text color for contrast */
+    font-size: 16px;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+nav {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #f0f0f0;
+}
+
+.everything-is-here {
+    max-width: 90%; /* Expanding max-width to use more of the viewport */
+    width: 100%; /* Ensures it uses up to the max-width of the viewport width */
+    padding-top: 60px; /* Offset for the fixed navigation */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto; /* Center align the container */
+}
+
+section {
+    background-color: #1a1a1a; /* Slightly lighter dark background for sections */
+    margin: 20px 0;
+    padding: 40px;
+    border-radius: 8px;
+    width: 100%; /* Ensures full width within the container */
+    text-align: center; /* Centers text */
+}
+
+#about img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.portfolio-columns, .experience-item, .skills-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project, .experience-item, .skill-category {
+    background-color: #262626; /* Darker background for items */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.project:hover, .experience-item:hover {
+    transform: translateY(-5px);
+}
+
+.project img, .experience-item img {
+    width: 100%; /* Responsive images */
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.horizontal-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers items in the list */
+}
+
+.horizontal-list li {
+    background-color: #333;
+    color: white;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .everything-is-here {
+        max-width: 80%; /* Increase max width for wider screens */
+    }
+}
