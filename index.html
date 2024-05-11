@@ -23,41 +23,39 @@
             <img src="Subject.png" alt="Aakash Sangani">
             <div class="info-content">
                 <h1 class="name" title="Aakash Sangani">Aakash Sangani</h1>
-                <p class="title">Software developer</p>
+                <h3 class="title">Software developer</h3>
             </div>
             <div>
                 I am a highly skilled software developer with over 5 years of experience specializing in DevOps applications. My expertise lies in automating and optimizing infrastructure for development and testing environments. With a strong background in AWS, Java, Terraform, Jenkins, Python, and various other DevOps tools, I am dedicated to streamlining development processes, enhancing efficiency, and ensuring the seamless deployment of software solutions. I have joined Northeastern University's Information Systems course to deepen my knowledge of development, build my programming skills, and stay updated with the latest technology trends to contribute to the future of tech.</div>
         </section>
 
         <section id="education">
-            <h2>Education</h2>
+            <h2 id="heading">Education</h2>
             <div class="portfolio-columns">
-                <div class="project">
-                    <a href="https://www.northeastern.edu" target="_blank" rel="noopener noreferrer">
-                        <img src="./download.png" alt="Project 2">
-                      </a>
+                <div class="institute">
+                    <a href="https://www.northeastern.edu" target="_blank" rel="noopener noreferrer"><img src="./download.png" alt="Project 2"></a>
                     <figcaption>Northeastern University, Boston</figcaption>
                     <p>Masters in Information Systems (2025)</p>
                 </div>
-                <div class="project">
-                    <a href="https://www.iitkgp.ac.in/about-iitkgp" target="_blank" rel="noopener noreferrer">
-                        <img src="./IIT_Kgp.jpeg" alt="Project 2">
-                      </a>                    <figcaption>Indian Institute Of Technology, Kharagpur</figcaption>
+                <div class="institute">
+                    <a href="https://www.iitkgp.ac.in/about-iitkgp" target="_blank" rel="noopener noreferrer"><img src="./IIT_Kgp.jpeg" alt="Project 2"></a>                    
+                    <figcaption>Indian Institute Of Technology, Kharagpur</figcaption>
                     <p>Bachelors in Mining Engineering (2018)</p>
                 </div>
             </div>
         </section>
 
         <section id="experience">
-            <h2>Work Experience</h2>
+            <h2 id="heading">Experience</h2>
             <div class="experience-item">
-                <a href="https://www.beehyv.com/">
-                    <h3 >Beehyv Software Solutions</h3>
-                </a>
-                <p>Senior Software Developer</p>
+                <div class="institute">
+                    <a href="https://www.beehyv.com/" target="_blank" rel="noopener noreferrer"><img src="./beehyv.jpeg" ></a>                    
+                    <h2>Beehyv Software Solutions</h2>
+                    <h3>Senior Software Developer</h3>
+                </div>
                 <div class="description">
                     <div class="responsibility" id="infrastructure">
-                        <h3>Infrastructure Development</h4>
+                        <h4>Infrastructure Development</h4>
                         <p>
                             As a lead, I Designed the deployment life cycle of Bahmni using Helm charts for deployment on Elastic Kubernetes services (EKS). Used GitHub Actions and Terraform scripts for resources on AWS and integrated with monitoring tools like Prometheus and Grafana.
                             Created a repository that has Terraform code framework for building more than 20 data sources in AWS and Azure on demand through Jenkins.
@@ -67,7 +65,7 @@
                         </p>
                     </div>
                     <div class="responsibility" id="deployment">
-                        <h3>Cloud Deployment</h4>
+                        <h4>Cloud Deployment</h4>
                         <p>
                             Designed and developed an automation framework for deploying auto-scalable clusters using Amazon services like ECS, cloud watch, VPCs, MQ, auto-scaling groups, etc. 
                             Containerized and migrated the Bahmni cluster to EKS, a user-friendly open-source Hospital Information System (HIS) and Electronic Medical Record (EMR) application.
@@ -75,7 +73,7 @@
                         </p>
                     </div>
                     <div class="responsibility" id="automation">
-                        <h3>Test Frameworks and Automation</h4>
+                        <h4>Test Frameworks and Automation</h4>
                         <p>
                             Developed integration tests for Hive data sources using Py-tests. Written automation tests and the unique maven test scripts for various data sources.
                             Worked on automating the creation of on-demand data sources and infrastructures for testing through Jenkins using Groovy and Terraform scripts in AWS & Azure.
@@ -84,7 +82,7 @@
                         </p>
                     </div>
                     <div class="responsibility" id="web">
-                        <h3>Web Development</h4>
+                        <h4>Web Development</h4>
                         <p>
                             Developed an end-to-end interactive shopping cart application on the spring framework.  
                             Worked on tasks involving parsing where I had to write a grammar for SQL queries.
@@ -94,10 +92,24 @@
             </div>
         </section>
         
-        
+        <section id="projects">
+            <h2 id="heading">Projects</h2>
+            <div id="project-item">
+                <p>Social Media Web Application, Web Project – MERN stack<a id="github" href="https://github.com/SanganiAak/ArtCircle">github</a> </p>
+            </div>
+            <div id="project-item">
+                <p>Network Structures and Cloud Computing Project - GCP, GitHub actions, Terraform <a id="github" href="https://github.com/SanganiAak/tf-gcp-infra">github</a></p>
+            </div>
+            <div id="project-item">
+                <p>Rag-based chatbot application - Streamlit, pinecone <a id="github" href="https://github.com/SanganiAak/chat-bots">github</a></p>
+            </div>
+            <div id="project-item">
+                <p>Application Engineering Development Project – Java Swing GUI, MSSQL</p>
+            </div>
+        </section>
 
         <section id="skills">
-            <h2>Skills and Certifications</h2>
+            <h2 id="heading">Skills and Certifications</h2>
             <div class="skills-list">
                 <ul class="horizontal-list">
                     <li class="skill-category highlight">Cloud Technologies</li>
@@ -141,11 +153,11 @@
             <div class="contact-details">
                 <div class="contact-field">
                     <ion-icon name="Github"></ion-icon>
-                    <a href="https://www.linkedin.com/in/aakash-sangani/" class="contact-link">Github</a>
+                    <a id="github" href="https://github.com/AakashSanganiNeu" class="contact-link">Github</a>
                 </div>
                 <div class="contact-field">
                     <ion-icon name="Linkedin"></ion-icon>
-                    <a href="https://github.com/AakashSanganiNeu" class="contact-link">Linkedin</a>
+                    <a id="linkedin" href="https://www.linkedin.com/in/aakash-sangani/" class="contact-link">Linkedin</a>
                 </div>
                 <div class="contact-field">
                     <ion-icon name="location-outline"></ion-icon>

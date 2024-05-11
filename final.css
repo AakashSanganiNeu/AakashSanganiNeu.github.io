@@ -36,7 +36,7 @@ a {
 }
 
 nav a:hover {
-    color: #f0f0f0;
+    color: #20a579;
 }
 
 .everything-is-here {
@@ -70,7 +70,7 @@ section {
     flex-wrap: wrap;
 }
 
-.project, .experience-item, .skill-category {
+.institute, .experience-item, .skill-category {
     background-color: #262626; /* Darker background for items */
     padding: 20px;
     margin-bottom: 20px;
@@ -78,11 +78,11 @@ section {
     transition: transform 0.3s ease;
 }
 
-.project:hover, .experience-item:hover {
+.institute:hover, .experience-item:hover {
     transform: translateY(-5px);
 }
 
-.project img, .experience-item img {
+.institute img, .experience-item img {
     width: 100%; /* Responsive images */
     border-radius: 4px;
     margin-bottom: 10px;
@@ -108,4 +108,58 @@ section {
     .everything-is-here {
         max-width: 80%; /* Increase max width for wider screens */
     }
+}
+
+#experience {
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center; /* Center-align text within the section */
+}
+
+.experience-item {
+    padding: 20px;
+    text-align: left; /* Left-align content within items */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+    position: relative; /* Relative positioning for descriptions */
+}
+
+.experience-item .institute {
+    text-align: center;
+}
+
+.experience-item h2{
+    color: #858a21;
+}
+
+.experience-item h4{
+    color: #858a21;
+}
+
+#infrastructure:hover p {
+    display: block;
+}
+
+#deployment:hover p {
+    display: block;
+}
+#automation:hover p {
+    display: block;
+}
+#web:hover p {
+    display: block;
+}
+
+#github{
+    color: #4d9c58e8;
+}
+
+#linkedin{
+    color: #4d9c58e8;
+}
+.title{
+    color: #93dd6de8;
+}
+#heading{
+    color: #20a579;
 }
